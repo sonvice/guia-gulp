@@ -6,7 +6,17 @@
 }
 
 .header__content {
-    @include breakpoint($mobile) {
-        text-align: center;
+    color: chocolate;
+    @include breakpoint(mobile) {
+        background-color: brown;
+        height: 100px;
+        width: 100%;
+        color: white;
+    }
+    @include breakpoint(tablet) {
+        background-color: green;
+    }
+    @include breakpoint(desktop) {
+        background-color: grey;
     }
 }

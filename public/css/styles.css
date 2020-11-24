@@ -11,3 +11,28 @@
   text-decoration: none;
   list-style: none;
 }
+
+.header__content {
+  color: chocolate;
+}
+
+@media (min-width: 320px) {
+  .header__content {
+    background-color: brown;
+    height: 100px;
+    width: 100%;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__content {
+    background-color: green;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__content {
+    background-color: grey;
+  }
+}

@@ -4,6 +4,6 @@
     --gris-claro: #efeeea;
     --gris-oscuro: #827d84;
 }
-
+@import 'utils/variables';
+@import 'utils/breakpoint';
 @import 'pages/header';
-@import 'utils/grid';
