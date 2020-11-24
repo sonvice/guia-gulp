@@ -1,0 +1,12 @@
+.container li {
+    text-transform: uppercase;
+    color: var(--first-color);
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__content {
+    @include breakpoint($mobile) {
+        text-align: center;
+    }
+}
