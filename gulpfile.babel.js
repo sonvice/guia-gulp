@@ -66,7 +66,7 @@ gulp.task('babel', () => {
 
 gulp.task('pug', () => {
     return gulp
-        .src('./src/views/pages/*.pug')
+        .src('./src/views/*.pug')
         .pipe(plumber())
         .pipe(
             pug({
@@ -87,7 +87,7 @@ gulp.task('sass', () => {
         .pipe(plumber())
         .pipe(
             sass({
-                outputStyle: 'compressed',
+                outputStyle: 'expanded',
             })
         )
         .pipe(gulp.dest('./public/css'))
